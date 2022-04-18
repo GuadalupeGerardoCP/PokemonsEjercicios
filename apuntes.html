@@ -1,0 +1,177 @@
+<!DOCTYPE html><!--Es para que el navegador vea que es un html-->
+<html lang="en"><!--Idioma del documento-->
+<head><!--Define el encabezado de la página-->
+    <meta charset="UTF-8"><!--Para caracteres como ñ y acentos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Es para compatible con otros navegadores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--que se ajuste a la pantalla del dispositivos-->
+    <title>Apuntes de Guadalupe</title><!--Aqui va el titulo de la página-->
+</head>
+<body><!--Aqui comienza el cuerpo de la página es lo que va a mostrar la página-->
+    <h1>Mi Portafolio</h1><!--El tamaño de un h1 es de 2rem o 16px.-->
+    <h2>Introducción</h2>  <!--El tamaño de un h2 es de 1rem o 8px.-->
+    <h3>Este es un texto</h3>  <!--El tamaño de un h3 es de 0.875rem o 6px.-->
+    <h4>Este es un texto un poco menos importante</h4> <!-- El tamaño de un h4 es de 0.75rem o 4px.-->
+    <h5>Este es un texto aun menos importante</h5>  <!-- El tamño de un h5 es de 0.625rem o 3px.-->
+    <h6>Este es un texto casi sin importancia</h6> <!--El tamaño de un h6 es de 0.5rem o 2px.-->
+    <!--Parrafos-->
+    <p align="Left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cumque, <em>velit cum ad dicta iure dolorem, obcaecati nesciunt eaque sit non porro officiis</em> officia ratione natus molestias quia sunt aliquam.</p><!--em es para cursiva-->
+    <br><!--para separar parrafos-->
+    <br>
+    <!--align es un atributo de alineacion del texto-->
+    <p align="Center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<b> Voluptate nam architecto vitae autem incidunt qui sequi, eligendi aliquam odio reprehenderit!</b> Est sunt totam assumenda! Illo numquam amet quod distinctio a.</p><!--b es para letras en negritas-->
+    <br>
+    <br>
+    <p align="right"><blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cumque, velit cum ad dicta iure dolorem, obcaecati nesciunt eaque sit non porro officiis <u>officia ratione natus molestias quia sunt aliquam</u>.</blockquote></p>
+    <br>
+    <br>
+    <p align="justify"><blockquote>ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nam architecto vitae autem incidunt qui sequi, eligendi aliquam odio reprehenderit! Est sunt totam assumenda! Illo numquam amet quod distinctio a.</blockquote></p>
+ 
+    <!--
+    Etiquetas para formatear texto: strong, em, u, i, b, blockquote.
+
+    Las etiquetas de texto nos permiten crear texto en negrita, cursiva, subrayado, etc.
+
+    - La etiqueta strong nos permite crear texto en negrita.
+    - La etiqueta em nos permite crear texto en cursiva.
+    - La etiqueta u nos permite crear texto subrayado.
+    - La etiqueta i nos permite crear texto en cursiva.
+    - La etiqueta b nos permite crear texto en negrita.
+    - La etiqueta blockquote nos permite crear un bloque de texto.
+
+    La diferencia entre las etiquetas strong y b es que la etiqueta strong debe utilizarse cuando el texto tiene una fuerte importancia o un sentido de urgencia o seriedad. Las etiquetas b en cambio deben utilizarse para llamar la atencion sobre un tramo de texto sin mayor importancia.
+    -->
+
+    <!--Son separadores de pagina-->
+    <hr>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <hr>
+
+    <!--para vinvular paginas-->
+    <a href="/IntroduccionHtml/assets/img/perritos.jpg" target="_blank">Este es un enlace a una foto de perritos</a>
+    <!--Blank te muestra ventana nueva-->
+    <br>
+    <a href="https://www.google.com" target="_self">Este es un enlace a google</a>
+    <!--Self muestra en la misma ventana-->
+    <br>
+    <a href="mailto:guadalupe.gerardo.cp@gmail.com">Enviarme un email </a>
+    <!--mailto es para referenciar a correos-->
+    <br>
+    <a href="/IntroduccionHtml/assets/img/perritos.jpg" downLoad>Descarga la imagen de unos perritos </a>
+    <br>
+
+    <!--Los atributos de las listas ordenadas son:
+        - start: es el atributo que nos permite definir el orden inicial de los elementos de la lista. Por defecto el valor es 1.
+        - type: Nos permite indicar el tipo de lista que se va a crear:
+            - decimal: nos permite crear una lista ordenada con numeros enteros.
+            - lower-alpha: nos permite crear una lista ordenada con letras minusculas.
+            - lower-roman: nos permite crear una lista ordenada con numeros romanos en minusculas.	
+            - upper-alpha: nos permite crear una lista ordenada con letras mayusculas.
+            - upper-roman: nos permite crear una lista ordenada con numeros romanos en mayusculas.
+        - reversed: nos permite invertir el orden de los elementos de la lista.
+-->
+
+    <h3>Lista ordenada de perritos(sin atributos)</h3>
+    <ol>
+        <li>Chihuahua</li>
+        <li>Pastor Aleman</li>
+        <li>Labrador</li>
+        <li>Bulldog</li>
+    </ol>
+
+    <h3>Lista ordenada de perritos(con atributos)</h3>
+
+    <ol type="A" start="5">
+        <li>Chihuahua</li>
+        <li>Pastor Aleman</li>
+        <li>Labrador</li>
+        <li>Bulldog</li>
+    </ol>
+
+    <ol type="a" start="5">
+        <li>Chihuahua</li>
+        <li>Pastor Aleman</li>
+        <li>Labrador</li>
+        <li>Bulldog</li>
+    </ol>
+
+    <ol type="I" start="5">
+        <li>Chihuahua</li>
+        <li>Pastor Aleman</li>
+        <li>Labrador</li>
+        <li>Bulldog</li>
+    </ol>
+
+    <ol type="i" start="5">
+        <li>Chihuahua</li>
+        <li>Pastor Aleman</li>
+        <li>Labrador</li>
+        <li>Bulldog</li>
+    </ol>
+
+    <!--
+        - Listas desordenadas: Las listas desordenadas son aquellas que nos sirven para mostrar los elementos sin ningún tipo de orden, simplemente precedidiso por una viñeta que puede ser un punto, un cuadrado, etc.
+        - style: nos permite definir el estilo de la lista.
+            - circle: nos permite crear una lista desordenada con viñetas circulares.
+            - disc: nos permite crear una lista desordenada con viñetas de disco.
+            - square: nos permite crear una lista desordenada con viñetas cuadradas.
+    -->
+    <h3>Lista desordenada de perritos(con atributos)</h3>
+    <ul type="square">
+        <li>Chihuahua</li>
+        <li>Pastor Aleman</li>
+        <li>Labrador</li>
+        <li>Bulldog</li>
+    </ul>
+
+    <h3>Lista de definiciones</h3>
+
+    <dl>
+        <dt>Gato</dt>
+        <dd>Mamífero carnívoro de la familia de los Félidos, digitígrado, doméstico, de unos cinco decímetros de largo desde la cabeza hasta el arranque de la cola, que por sí sola mide dos decímetros aproximadamente. Pareciera que planean dominar al mundo </dd>
+        <dt>Perro</dt>
+        <dd>Mamífero doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, según las razas, que tiene olfato muy fino y es inteligente y muy leal a su dueño. Es el mejor amigo del hombre</dd>
+    </dl>
+    
+    <!--
+        Etiqueta imagen (img)
+    -->
+    <img src="/IntroduccionHtml/assets/img/perritos.jpg" alt="Grupo de Perritos" width="100" height="100">
+    <!--
+        alt es descripcion de la imagen
+        width es alto de imagen
+        height es ancho de imagen
+    -->
+
+    <!--
+
+    Etiquetas de divisiones (div y span)
+
+    Las etiquetas div y span no tienen ningun signidicado especial, sólo que la etqueta div se define como un elemento bloque y la etiqueta span es un elemento de linea.
+
+    -div: Este es un bloque de texto, se utiliza pra agrupar elementos en una sola seccion, es decir, si queremos agrupar una imagen y un texto, debemos utilizar un div.
+ 
+-->
+<div align="center" style="background-color: blueviolet;">
+    <img src="/IntroduccionHtml/assets/img/perritos.jpg" alt="Grupo de Perritos" width="100" height="100">
+    <p>Esto nos ayudara a conocer mas sobre los div. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni deserunt accusamus, asperiores atque modi hic animi quod cupiditate laboriosam ut sequi dolor, earum suscipit consequatur impedit sunt doloribus? Neque, consequatur.</p>
+    <ul>
+        <li>uno</li>
+        <li>dos</li>
+    </ul>
+</div>
+
+<div align="center" style="border: 10px; color: blue;">
+    <h3>Ejemplo de div y span</h3>
+    <p> 
+        Esto es un parrafo dentro de un div,
+        <span style="color:blue;">
+            y esto un span dentro de un parrafo
+        </span>
+    </p>
+</div>
+
+</body>
+</html>
